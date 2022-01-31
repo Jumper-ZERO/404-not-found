@@ -9,6 +9,7 @@
     --gray: #4F4F4F;
     --font1: Inconsolata;
     --font2: Space Mono;
+    --font3: Montserrat;
 }
 html {
     font-size: 62.5%;
@@ -72,7 +73,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-size: 1.4rem;
-    letter-spacing: -3.5%;
+    letter-spacing: -0.035em;
     font-weight: 700;
     text-transform: uppercase;
     border: none;
@@ -82,9 +83,10 @@ body {
     position: absolute;
     width: 287px;
     bottom: 24px;
+    text-align: center;
     transform: translate(calc(50% - 93.5px));
     font-size: 1.4rem;
     margin: 0 auto;
     font-weight: 400;
-    font-family: Montserrat;
+    font-family: var(--font3);
 }
